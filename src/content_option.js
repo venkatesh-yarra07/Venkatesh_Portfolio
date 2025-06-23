@@ -11,7 +11,7 @@ const introdata = {
         second: "Works on DevOps",
         third: "I develop CI-CD using DevOps tools",
     },
-    description: "I’m Venkatesh, a DevOps Engineer with a passion for building scalable and efficient systems. I specialize in AWS Cloud services and have extensive experience in developing CI/CD pipelines to streamline software delivery processes.",
+    description: "I’m Venkatesh yarra, a DevOps Engineer with a passion for building scalable and efficient systems. I specialize in AWS Cloud services and have extensive experience in developing CI/CD pipelines to streamline software delivery processes.",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
