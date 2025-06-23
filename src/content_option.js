@@ -1,74 +1,64 @@
-const logotext = "JOHN";
+const logotext = "Venkatesh";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Venkatesh | DevOps Engineer",
+    description: "I’m Venkatesh DevOps Engineer, AWS Cloud, devloper,currently working in India",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Venkatesh",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "I love DevOps",
+        second: "Works on DevOps",
+        third: "I develop CI-CD using DevOps tools",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    description: "I’m Venkatesh, a DevOps Engineer with a passion for building scalable and efficient systems. I specialize in AWS Cloud services and have extensive experience in developing CI/CD pipelines to streamline software delivery processes.",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
     title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    aboutme: " I’m Venkatesh, a DevOps Engineer with a passion for building scalable and efficient systems. I specialize in AWS Cloud services and have extensive experience in developing CI/CD pipelines to streamline software delivery processes. My goal is to leverage my skills to enhance operational efficiency and drive innovation in the tech industry.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "DevOps Engineer",
+        where: "INDIA",
+        date: "2022 - Present",
     },
 ];
 
 const skills = [{
-        name: "Python",
-        value: 90,
-    },
-    {
-        name: "Djano",
-        value: 85,
-    },
-    {
-        name: "Javascript",
+        name: "DevOps",
         value: 80,
     },
     {
-        name: "React",
-        value: 60,
+        name: "Jenkins",
+        value: 85,
     },
     {
-        name: "Jquery",
-        value: 85,
+        name: "GitHub",
+        value: 80,
+    },
+    {
+        name: "Linux",
+        value: 90,
+    },
+    {
+        name: "Docker",
+        value: 80,
+    },
+    {
+        name: "Kubernetes",
+        value: 75,
+    },
+    {
+        name: "AWS",
+        value: 80,
     },
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "DevOps Engineer",
+        description: "I specialize in implementing DevOps practices to enhance collaboration between development and operations teams, ensuring faster and more reliable software delivery.",
     },
 ];
 
@@ -77,68 +67,12 @@ const dataportfolio = [{
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
-    {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "name@example.com",
+    YOUR_FONE: "+91 9876543210",
+    description: "I am interested in discussing DevOps solutions, AWS Cloud services, and CI/CD pipeline development. Feel free to reach out to me for collaboration or consultation.",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
